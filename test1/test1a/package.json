@@ -3,6 +3,6 @@
   "private": true,
   "version": "1.0.0",
   "dependencies": {
-    "axios": "^0.26.1"
+    "treasurer": "^1.4.20"
   }
 }

@@ -3,6 +3,6 @@
   "private": true,
   "version": "1.0.0",
   "dependencies": {
-    "babel-loader": "^8.2.4"
+    "pangolicons": "^3.2.0"
   }
 }
