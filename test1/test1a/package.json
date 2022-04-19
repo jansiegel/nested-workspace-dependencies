@@ -1,0 +1,8 @@
+{
+  "name": "nested-workspaces-test1a",
+  "private": true,
+  "version": "1.0.0",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}

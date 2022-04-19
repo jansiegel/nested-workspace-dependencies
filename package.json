@@ -1,0 +1,9 @@
+{
+  "name": "nested-workspaces",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "test1",
+    "test2"
+  ]
+}
