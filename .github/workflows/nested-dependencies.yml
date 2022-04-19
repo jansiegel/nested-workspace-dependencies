@@ -30,7 +30,7 @@ jobs:
       - name: Display the `./node_modules` structure
         run: ls -la ./node_modules
       - name: Install the dependencies of a nested workspace
-      - run: |
+        run: |
           cd test1
           npm install
       - name: Display the `./node_modules` structure
