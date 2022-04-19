@@ -3,7 +3,7 @@ name: Nested workspace dependency installation
 on:
   workflow_dispatch:
   push:
-    paths:
+    branches:
       - develop
 
 env:
