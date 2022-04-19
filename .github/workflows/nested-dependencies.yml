@@ -25,6 +25,7 @@ jobs:
         uses: actions/setup-node@25316bbc1f10ac9d8798711f44914b1cf3c4e954 # https://github.com/actions/setup-node/releases/tag/v2.4.0
         with:
           node-version: ${{ env.NODE_VERSION }}
+      - runs: npm i -g npm@${{ matrix.version }}
       - name: Install the main dependencies
         run: npm install
       - name: Display the `./node_modules` structure
