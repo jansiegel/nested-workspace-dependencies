@@ -11,7 +11,7 @@ env:
 
 jobs:
   install-dependencies:
-    name: Install the dependencies of the root directory and a nested workspace
+    name: [npm@${{ matrix.version }}] Install the dependencies of the root directory and a nested workspace
     runs-on: ubuntu-18.04
 
     strategy:
