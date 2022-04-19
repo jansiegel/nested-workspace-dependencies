@@ -3,6 +3,6 @@
   "private": true,
   "version": "1.0.0",
   "dependencies": {
-    "treasurer": "^1.4.20"
+    "kuler": "^2.0.0"
   }
 }
